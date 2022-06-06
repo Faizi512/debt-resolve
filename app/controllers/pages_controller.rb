@@ -4,6 +4,12 @@ class PagesController < ApplicationController
 
 	end
 
+	def terms_and_conditions
+	end
+
+	def home_privacy_policy
+	end
+
 
 
 
