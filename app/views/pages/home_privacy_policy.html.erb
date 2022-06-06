@@ -1,3 +1,8 @@
+<%= javascript_pack_tag 'start', 'data-turbolinks-track': 'reload', defer: true %>
+<div class="container">
+<%= image_tag('logo.png', class: 'logo-img mt-2 d-none d-md-block')%>
+</div>
+<div class="container" id="debt-main">
 <h1>Welcome to the Duke Leads – FZCO Privacy Notice</h1>
 This information has been produced to help you understand everything you need to know about the way Duke Leads - FZCO collects, uses and shares personal data, what your legal rights are and how to exercise them.<br>
 <br>
@@ -189,3 +194,5 @@ Lakeside offices, Thorn Business Park, Hereford, England, HR2 6JT<br>
 dpo@ametrosgroup.com<br>
 <br>
 This privacy policy was last reviewed and updated on 18th of March 2022<br>
+</div>
+<%= render partial:  '/layouts/footer' %>

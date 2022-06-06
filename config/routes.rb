@@ -3,5 +3,6 @@ Rails.application.routes.draw do
   root 'pages#start'
   get '/terms-and-conditions', to: 'pages#terms_and_conditions'
   get '/home-privacy', to: 'pages#home_privacy_policy'
+  get '/cookie-policy', to: 'pages#home_cookie_policy'
   # get '/start', to: 'pages#start'
 end

@@ -1,3 +1,8 @@
+<%= javascript_pack_tag 'start', 'data-turbolinks-track': 'reload', defer: true %>
+<div class="container">
+<%= image_tag('logo.png', class: 'logo-img mt-2 d-none d-md-block')%>
+</div>
+<div class="container" id="debt-main">
 <h1>Terms and Conditions</h1>
 <h3>Acceptance of Terms</h3>
 
@@ -116,3 +121,5 @@ terms and conditions periodically for any changes.
 <h4>7. Termination</h4>
 We hold the right to terminate your
 access at any time, without notice or any specific reason for doing so.
+</div>
+<%= render partial:  '/layouts/footer' %>

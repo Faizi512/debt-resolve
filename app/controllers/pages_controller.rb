@@ -10,7 +10,8 @@ class PagesController < ApplicationController
 	def home_privacy_policy
 	end
 
-
+	def home_cookie_policy
+	end
 
 
 end
