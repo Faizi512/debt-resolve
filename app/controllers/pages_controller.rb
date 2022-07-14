@@ -4,6 +4,9 @@ class PagesController < ApplicationController
 
 	end
 
+	def start2
+	end
+
 	def terms_and_conditions
 	end
 

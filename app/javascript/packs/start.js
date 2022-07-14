@@ -1,4 +1,5 @@
 
+import $ from "jquery"
 class Start {
   constructor() {
     var CI = this;
