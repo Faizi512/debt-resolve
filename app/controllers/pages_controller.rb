@@ -4,6 +4,9 @@ class PagesController < ApplicationController
 
 	end
 
+	def start2
+	end
+
 	def terms_and_conditions
 	end
 
@@ -13,5 +16,13 @@ class PagesController < ApplicationController
 	def home_cookie_policy
 	end
 
+	def start_terms_and_conditions
+	end
+
+	def start_privacy_policy
+	end
+
+	def start_cookie_policy
+	end
 
 end
